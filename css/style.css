@@ -1365,7 +1365,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: url(../img/apml.png);
 }
 
 /* line 4, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_slider.scss */
@@ -1443,6 +1443,27 @@ h3 {
   }
 }
 
+@media only screen and (min-width: 700px) {
+  .slider_area .single_slider .slider_text {
+    padding-left: 600px;
+  } 
+}
+
+@media (max-width: 1000px) and (min-width: 600px) {
+  .slider_area .single_slider .slider_text {
+    font-size: 40px;
+    padding-left: 300px;
+  } 
+}
+
+@media only screen and (max-width: 1000px) {
+  .slider_area .single_slider .slider_text {
+    font-size: 35px;
+  } 
+}
+
+
+
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 20, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_slider.scss */
   .slider_area .single_slider {
@@ -1483,14 +1504,7 @@ h3 {
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 59, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_slider.scss */
-  .slider_area .single_slider .slider_text h3 {
-    font-size: 54px;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 750px) and (max-width: 1200px) {
   /* line 59, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
     font-size: 35px;
