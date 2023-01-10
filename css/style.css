@@ -1381,7 +1381,7 @@ h3 {
 
 /* line 10, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_slider.scss */
 .slider_area::before {
-  background: #001D38;
+  background: #001d3800;
   position: absolute;
   left: 0;
   top: 0;
@@ -1499,7 +1499,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 59, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 45px;
   }
 }
