@@ -28,6 +28,21 @@
 
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+
+    <style>
+        .main-content .line-break {
+            width: 46%;
+            display: inline-block;
+            margin-bottom: 5px !important;
+            color: maroon;
+        }
+
+        .main-content .hr-img {
+            display: inline-block;
+            width: 38px;
+            height: 38px;
+        }
+    </style>
 </head>
 
 <body>
@@ -46,10 +61,10 @@
                                 <a href="index.html">
                                     <!-- <img height="100px" src="img/logoImg.png" alt="" width="200px"> -->
                                     <div class="d-flex flex-column justify-content-center align-items-center">
-                                        <h1 style="color: #FF3414;font-size: 42px; font-weight: 700;"
-                                            class="text-center">APML</h1>
-                                        <h1 style="color: #333c6b;" class="text-center">Aravind Packers, Movers &
-                                            Logistics</h1>
+                                        <h2 style="color: #FF3414;font-size: 42px; font-weight: 700;"
+                                            class="text-center">APML</h2>
+                                        <h2 style="color: #333c6b;" class="text-center">Aravind Packers Movers &
+                                            Logistics</h2>
                                         <!-- <p style="color: #333c6b;" class="text-center mb-0">Right Place for The Right People
                                         </p>
                                         <p style="color: #333c6b;" class="text-center">(A Unit of APML Packers and
@@ -62,12 +77,15 @@
                             <div class="header_right d-flex align-items-center">
                                 <div class="short_contact_list">
                                     <ul>
-                                        <li><a href="#"> <i class="fa fa-envelope"></i> apmlpackers1@gmail.com</a></li>
+                                        <li><a href=""> <i class="fa fa-envelope"></i> apmlpackers1@gmail.com</a></li>
 
                                     </ul>
                                     <ul style="text-align: left;">
-
-                                        <li><a href="#"> <i class="fa fa-phone"></i> +91 90439 19199</a></li></a></li>
+                                        <li><a href=""> <i class="fa fa-phone"></i> +91 8438019199</a></li></a></li>
+                                        <br>
+                                        <li><a href=""> <i class="fa fa-phone"></i> +91 9585519199</a></li></a></li>
+                                        <br>
+                                        <li><a href=""> <i class="fa fa-phone"></i>+91 9045266067</a></li></a></li>
                                     </ul>
                                 </div>
 
@@ -82,30 +100,55 @@
             <div id="sticky-header" class="main-header-area">
                 <div class="container">
                     <div class="header_bottom_border">
-                        <div class="row align-items-center">
+                        <div class="row">
                             <div class="col-12 d-block d-lg-none">
                                 <div class="logo">
                                     <a href="index.html">
-                                        <img height="100px" width="150px" src="img/logoImg.png" alt="">
+                                        <!-- <img height="100px" width="150px" src="img/logoImg.png" alt=""> -->
+                                        <div class="d-flex flex-column">
+                                            <h2 style="color: #FF3414;font-size: 42px; font-weight: 700;"
+                                                class="text-center">APML</h2>
+                                            <p style="color: #333c6b; font-weight: 600; text-align: center;">Aravind
+                                                Packers Movers &
+                                                Logistics</p>
+                                            <!-- <p style="color: #333c6b;" class="text-center mb-0">Right Place for The Right People
+                                            </p>
+                                            <p style="color: #333c6b;" class="text-center">(A Unit of APML Packers and
+                                                Movers)</p> -->
+                                        </div>
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-xl-9 col-lg-9">
-                                <div class="main-menu  d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li><a href="index.html">home</a></li>
-                                            <li><a href="#profile">Profile</a></li>
-                                            <li><a href="#service">Services</a></li>
-                                            <li><a href="#about">about</a></li>
-                                            <li><a href="#contact">Contact</a></li>
-                                        </ul>
-                                    </nav>
+                                <!-- <div class="col-xl-12 col-lg-12 h-100">
+                                    <div class="main-menu h-100 d-none d-lg-block  ">
+                                        <nav class=" h-100 d-flex align-items-end justify-content-end ">
+                                            <ul id="navigation d-flex align-items-end">
+                                                <li><a href="index.html">home</a></li>
+                                                <li><a href="#profile">Profile</a></li>
+                                                <li><a href="#service">Services</a></li>
+                                                <li><a href="#about">about</a></li>
+                                                <li><a href="#contact">Contact</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div> -->
+
+                                <div class="col-xl-12 col-lg-12 h-100">
+                                    <div class="main-menu h-100 d-none d-lg-block">
+                                        <nav class=" h-100 d-flex align-items-end justify-content-end ">
+                                            <ul id="navigation">
+                                                <li><a  href="index.html">home</a></li>
+                                                <li><a  href="#service">Services</a></li>
+                                                <li><a href="#about">about</a></li>
+                                                <li><a href="#contact">Contact</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
                                 </div>
-                            </div>
 
                             <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none"></div>
+                                <div class="mobile_menu d-block d-lg-none">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -145,12 +188,12 @@
     <div id="home" class="slider_area">
         <div class="container">
             <div class="row d-flex">
-                <div class="col-xl-5 col-md-12">
+                <div class="col-xl-5 col-md-12 d-flex align-items-center justify-content-center">
                     <img class="hero_img" width="400px" height="400px" src="./img/apml.png" alt="">
                 </div>
                 <div class="col-xl-7 col-md-12 d-flex flex-column justify-content-center align-items-center">
                     <h1 style="color: #FF3414;font-size: 42px; font-weight: 700;" class="text-center">APML</h1>
-                    <h1 style="color: #333c6b;" class="text-center">Aravind Packers, Movers & Logistics</h1>
+                    <h1 style="color: #333c6b;" class="text-center">Aravind Packers Movers & Logistics</h1>
                     <p style="color: #333c6b;" class="text-center mb-0">Right Place for The Right People</p>
                     <p style="color: #333c6b;" class="text-center">(A Unit of APML Packers and Movers)</p>
                     <button class="boxed-btn3-line">Call Now</button>
@@ -160,6 +203,26 @@
     </div>
 
 
+    <div style="padding: 30px  0px" class="container ">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-5">
+
+                    <hr class=" font-weight-bold">
+                </div>
+                <div class="col-2 d-flex justify-content-center">
+                    <img src="./img/pack_icon.png" height="38px" width="38px" alt="img" class="">
+                </div>
+                <div class="col-5">
+
+                    <hr class="font-weight-bold">
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
     <!-- slider_area_end -->
     <!-- chose_area  -->
     <div id="about" class="chose_area ">
@@ -198,7 +261,26 @@
             </div>
         </div>
     </div>
+    <div style="padding: 0px 0px 30px  0px" class="container ">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-5">
 
+                    <hr class=" font-weight-bold">
+                </div>
+                <div class="col-2 d-flex justify-content-center">
+                    <img src="./img/pack_icon.png" height="38px" width="38px" alt="img" class="">
+                </div>
+                <div class="col-5">
+
+                    <hr class="font-weight-bold">
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
 
     <div id="profile" class="chose_area ">
 
@@ -212,18 +294,18 @@
 
                     <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="features_info">
-                            <h3 style="font-weight: bold; color: #FF3414;">C.Murali.B.Sc,L.L.b
+                            <h3 style="font-weight: 550; color: #FF3414;">C.Murali.B.Sc,L.L.b
                             </h3>
                             <h4>Director</h4>
                             <p>
-                                As a branch manager in <span style="font-weight: bold; color: #FF3414;">Transport
+                                As a branch manager in <span style="font-weight: 500; color: #FF3414;">Transport
                                     Corporation of India Ltd</span> from the year 1989 to 1996 providing great household
                                 shifting and customer
                                 service.
-                                <span style="font-weight: bold; color: #FF3414;">Associated Road Carriers Ltd</span>.
+                                <span style="font-weight: 500; color: #FF3414;">Associated Road Carriers Ltd</span>.
                                 from 1996 to 2006 as a divisional executive with an outstanding service of Transport
                                 Industries.
-                                As the State Head of the <span style="font-weight: bold; color: #FF3414;">Agarwal
+                                As the State Head of the <span style="font-weight: 500; color: #FF3414;">Agarwal
                                     Packers and Movers Limited</span> Tamilnadu Region from 2006 to 2017, Leaded House
                                 Hold Shifting and logistics company has outstanding managerial abilities.
                             </p>
@@ -246,6 +328,7 @@
         </div>
     </div>
 
+
     <div id="about" class="chose_area ">
         <div class="container">
             <div class="features_main_wrap">
@@ -257,10 +340,10 @@
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="features_info">
-                            <h3 style="font-weight: bold; color: #FF3414;">S.Mallika .B.Com
+                            <h3 style="font-weight: 550; color: #FF3414;">S.Mallika .B.Com
                             </h3>
                             <h4>Director</h4>
-                            <p><span style="font-weight: bold; color: #FF3414;">Associated road carriers Ltd</span> As a
+                            <p><span style="font-weight: 500; color: #FF3414;">Associated road carriers Ltd</span> As a
                                 executive 1995-1999.
                                 She is a specialist in the field of logistics and transportation. She possesses the best
                                 business talents, as evidenced by the swift and rapid growth of APML. She contributed
@@ -278,7 +361,27 @@
     </div>
 
     <!--/ chose_area  -->
+<div style="padding: 30px 0px 0px  0px" class="container ">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-5">
 
+                    <hr class=" font-weight-bold">
+                </div>
+                <div class="col-2 d-flex justify-content-center">
+                    <img src="./img/pack_icon.png" height="38px" width="38px" alt="img" class="">
+                </div>
+                <div class="col-5">
+
+                    <hr class="font-weight-bold">
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    
     <div class="transportaion_area">
         <div class="container">
             <div class="row">
@@ -324,6 +427,27 @@
         </div>
     </div>
 
+    <div style="padding: 0px 0px 30px  0px" class="container ">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-5">
+
+                    <hr class=" font-weight-bold">
+                </div>
+                <div class="col-2 d-flex justify-content-center">
+                    <img src="./img/pack_icon.png" height="38px" width="38px" alt="img" class="">
+                </div>
+                <div class="col-5">
+
+                    <hr class="font-weight-bold">
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
     <div id="service" class="service_area">
         <div class="container">
             <div class="row">
@@ -343,7 +467,7 @@
                                 <img height="300px" src="img/gallery/5.jpeg" alt="">
                             </div>
                             <div class="service_info">
-                                <h3><a href="#">DOMESTIC MOVING</a></h3>
+                                <h3><a href="javascript:void(0)">DOMESTIC MOVING</a></h3>
                                 <p>In an effort to lessen the time and energy normally connected with local migrations,
                                     we provide a...</p>
                             </div>
@@ -353,7 +477,7 @@
                                 <img height="300px" src="img/localshipping.jpg" alt="">
                             </div>
                             <div class="service_info">
-                                <h3><a href="#">LOCAL SHIFTING</a></h3>
+                                <h3><a href="javascript:void(0)">LOCAL SHIFTING</a></h3>
                                 <p>When someone refers to "local shifting," they are referring to a relocation that
                                     takes place within...</p>
                             </div>
@@ -363,7 +487,7 @@
                                 <img height="300px" src="img/gallery/3.jpeg" alt="">
                             </div>
                             <div class="service_info">
-                                <h3><a href="#">HOME STORAGE</a></h3>
+                                <h3><a href="javascript:void(0)">HOME STORAGE</a></h3>
                                 <p>To move your belongings from one location or city to another, you can use
                                     professional home...</p>
                             </div>
@@ -373,7 +497,7 @@
                                 <img height="300px" src="img/gallery/4.jpeg" alt="">
                             </div>
                             <div class="service_info">
-                                <h3><a href="#">VEHICLE TRANSPORTATION</a></h3>
+                                <h3><a href="javascript:void(0)">VEHICLE TRANSPORTATION</a></h3>
                                 <p>Aravind Packers and Movers is an industry leader in the transportation and logistics
                                     field and a...</p>
                             </div>
@@ -383,7 +507,7 @@
                                 <img height="300px" src="img/warehousing.jpg" alt="">
                             </div>
                             <div class="service_info">
-                                <h3><a href="#">WAREHOUSING</a></h3>
+                                <h3><a href="javascript:void(0)">WAREHOUSING</a></h3>
                                 <p>Since APML Group is an asset-based organisation, it has purchased plenty of property
                                     all throughout...</p>
                             </div>
@@ -393,7 +517,7 @@
                                 <img height="300px" src="img/odc.jpg" alt="">
                             </div>
                             <div class="service_info">
-                                <h3><a href="#">ODC TRANSPORTATION</a></h3>
+                                <h3><a href="javascript:void(0)">ODC TRANSPORTATION</a></h3>
                                 <p>APML Group has accumulated a wealth of knowledge and a stellar reputation in the
                                     field
                                     of ODC...</p>
@@ -404,7 +528,7 @@
                                 <img height="300px" src="img/international-moving.jpg" alt="">
                             </div>
                             <div class="service_info">
-                                <h3><a href="#">INTERNATIONAL MOVING</a></h3>
+                                <h3><a href="javascript:void(0)">INTERNATIONAL MOVING</a></h3>
                                 <p>The establishment of new businesses each day results in a growing number of potential
                                     jobs. New...</p>
                             </div>
@@ -414,7 +538,7 @@
                                 <img height="300px" src="img/gallery/1.jpeg" alt="">
                             </div>
                             <div class="service_info">
-                                <h3><a href="#">CAR TRANSPORTATION</a></h3>
+                                <h3><a href="javascript:void(0)">CAR TRANSPORTATION</a></h3>
                                 <p>Automobiles, motorcycles, and bicycles are examples of modern forms of transportation
                                     that...</p>
                             </div>
@@ -501,6 +625,15 @@
     <!-- testimonial_area  -->
     <div class="testimonial_area">
         <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title mb-50 text-center">
+                        <h3>
+                            Testimonial
+                        </h3>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-xl-7">
                     <div class="testmonial_active owl-carousel">
@@ -594,10 +727,6 @@
     </div>
     <!-- /testimonial_area  -->
 
-    <br>
-    <br>
-    <br>
-    <br>
     <!-- contact_action_area  -->
     <div id="contact" class="contact_action_area">
         <div class="container">
@@ -624,7 +753,7 @@
 
 
     <!-- counter_area  -->
-    <div class="counter_area">
+    <div class="counter_area pb-0">
         <div class="container">
             <div class="offcan_bg">
                 <div class="row">
@@ -674,31 +803,41 @@
                 </div>
                 <div class="col-xl-8 col-lg-8 col-md-7">
                     <div class="form">
-                        <form action="#">
+                        <div action="#">
                             <div class="row">
                                 <div class="col-xl-6">
                                     <div class="input_field">
-                                        <input type="text" placeholder="Your name">
+                                        <input type="text" id="fName" placeholder="Your name">
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="input_field">
-                                        <input type="email" placeholder="Email">
+                                        <input type="text" id="fFrom" placeholder="From Place">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="input_field">
+                                        <input type="text" id="fTo" placeholder="To Place">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="input_field">
+                                        <input type="text" id="fPhone" placeholder="Phone">
                                     </div>
                                 </div>
 
                                 <div class="col-xl-12">
                                     <div class="input_field">
-                                        <textarea placeholder="Message"></textarea>
+                                        <textarea id="fMsg" placeholder="Items Description"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-xl-12">
                                     <div class="input_field">
-                                        <button class="boxed-btn3-line" type="submit">Send Message</button>
+                                        <button id="messageBtn" class="boxed-btn3-line" type="button">Send Message</button>
                                     </div>
                                 </div>
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -720,7 +859,7 @@
                         <ul>
                             <li><a href="https://www.facebook.com/profile.php?id=100067667948508"> <i
                                         class="fa fa-facebook"></i> </a></li>
-                            <li><a href="#"> <i class="fa fa-twitter"></i> </a></li>
+
                             <li><a href="https://www.youtube.com/@aravindpackersandmoverslog8800/featured"> <i
                                         class="fa fa-youtube"></i> </a></li>
                         </ul>
@@ -735,11 +874,11 @@
                 <div class="col-xl-3 col-md-3">
                     <div class="single_location">
                         <h3> <img src="img/icon/support.svg" alt=""> Contact</h3>
-                        <p>aravindpacker.com</p>
-                        <p>+91 8438019199 <br>
-                        <p>+91 9585519199 <br>
-                        <p>+91 9045266067 <br>
-                            apmlpackers1@gmail.com </p>
+                        <p class="mb-2">aravindpacker.com</p>
+                        <p class="mb-0">+91 8438019199</p>
+                        <p class="mb-0">+91 9585519199</p>
+                        <p class="mb-2">+91 9045266067</p>
+                        <p class="mb-0">apmlpackers1@gmail.com </p>
                     </div>
                 </div>
             </div>
@@ -760,9 +899,7 @@
                         <p class="copy_right text-center">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             Copyright &copy;
-                            <script>document.write(new Date().getFullYear());</script> All rights reserved | This
-                            template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
-                                href="https://thereciprocalsolutions.com/" target="_blank">The Reciprocal Solution</a>
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved</a>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </p>
                     </div>
@@ -792,7 +929,7 @@
             width: 60px;
             height: 60px;
             bottom: 60px;
-            right: 20px;
+            right: 8px;
             /* background-color: #25d366; */
             color: #FFF;
             border-radius: 50px;
@@ -803,35 +940,33 @@
         }
 
         .my-float {
-            margin-top: 16px;
+            margin-top: 54px;
         }
 
         .float1 {
             position: fixed;
             width: 60px;
             height: 60px;
-            bottom: 40px;
-            left: 20px;
-            background-color: #4498ff;
-            color: #FFF;
+            bottom: 60px;
+            left: 8px;
             border-radius: 50px;
             text-align: center;
             font-size: 30px;
-            box-shadow: 0 3px 14px rgba(0, 0, 0, 0.45);
             z-index: 100;
         }
 
 
         .my-float1 {
-            margin-top: 16px;
+            margin-top: 54px;
         }
     </style>
     <a href="tel:+919043919199" class="float1" target="_blank">
-        <i class="fa fa-phone my-float1"></i>
+        <img src="./img/call.png" class=" my-float1" heigth="50px" width="50px">
+
     </a>
     <a href="https://api.whatsapp.com/send?phone=+919043919199&amp;text=Hello Aravind Packers %26 Movers Logistics!"
         class="float" target="_blank">
-        <img src="./assets/WhatsApp.png" class=" my-float" heigth="70px" width="70px">
+        <img src="./assets/WhatsApp.png" class=" my-float" heigth="50px" width="50px">
     </a>
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
@@ -866,7 +1001,19 @@
 
     <script src="js/main.js"></script>
 
-
+    <script >
+        const name = document.getElementById('fName')
+        const phone = document.getElementById('fPhone')
+        const from = document.getElementById('fFrom')
+        const to = document.getElementById('fTo')
+        const message = document.getElementById('fMsg')
+        const messageBtn = document.getElementById('messageBtn')
+        console.log(messageBtn);
+        messageBtn.addEventListener("click",()=>{
+            console.log("eee");
+            location.href=`https://api.whatsapp.com/send?phone=+919043919199&text=Name%3A${name.value}%0APhone%3A${phone.value}%0AFrom%3A${from.value}%0ATo%3A${to.value}%0AMessage%3A${message.value}`
+        })
+    </script>
 
 
 </body>

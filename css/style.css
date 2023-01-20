@@ -62,6 +62,7 @@ a:hover,
 .portfolio-cat a:hover,
 .footer -menu li a:hover {
   text-decoration: none;
+  font-weight: 600 !important;
 }
 
 /* line 34, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
@@ -74,7 +75,7 @@ button {
 /* line 39, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
 h1, h2, h3, h4, h5 {
   font-family: "Poppins", sans-serif;
-  color: #001D38;
+  color: #00337c;
 }
 
 /* line 43, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
@@ -215,7 +216,7 @@ h3 {
 .overlay::before {
   position: absolute;
   content: "";
-  background-color: #001D38;
+  background-color: #00337c;
   top: 0;
   left: 0;
   width: 100%;
@@ -234,7 +235,7 @@ h3 {
 .overlay2::before {
   position: absolute;
   content: "";
-  background-color: #001D38;
+  background-color: #00337c;
   top: 0;
   left: 0;
   width: 100%;
@@ -256,7 +257,7 @@ h3 {
   height: 100%;
   left: 0;
   top: 0;
-  background: #001D38;
+  background: #00337c;
   opacity: .6;
   content: '';
   z-index: -1;
@@ -680,10 +681,10 @@ h3 {
 
 /* line 2, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_section_title.scss */
 .section_title h3 {
-  font-size: 46px;
+  font-size: 40px;
   font-weight: 400;
   line-height: 52px;
-  color: #001D38;
+  color: #00337c;
   position: relative;
   z-index: 0;
 }
@@ -731,7 +732,7 @@ h3 {
 .section_title h4 {
   font-size: 22px;
   font-weight: 500;
-  color: #001D38;
+  color: #00337c;
   padding-bottom: 21px;
 }
 
@@ -751,7 +752,7 @@ h3 {
   /* line 4, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_slick-nav.scss */
   .mobile_menu {
     position: absolute;
-    right: 0px;
+    right: 0px;   
     width: 100%;
     z-index: 9;
   }
@@ -883,7 +884,7 @@ h3 {
   padding: 5px;
   right: 6px;
   margin-top: -5px;
-  top: -31px;
+  top: -90px;
 }
 
 /* line 1, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_header.scss */
@@ -937,7 +938,7 @@ h3 {
 
 /* line 30, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_header.scss */
 .header-area .main-header-area.details_nav {
-  background: #001D38;
+  background: #00337c;
 }
 
 /* line 47, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_header.scss */
@@ -1100,10 +1101,11 @@ h3 {
 
 /* line 145, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu {
+  background-color: #00337c;
   padding: 12px 0;
 }
 
-/* line 148, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_header.scss */
+/* line 148, ../../Arafath/CL/Cl November/223.  Transportation/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li {
   display: inline-block;
   position: relative;
@@ -1112,10 +1114,10 @@ h3 {
 
 /* line 158, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
-  color: #596672;
+  color: #fff;
   font-size: 16px;
   text-transform: capitalize;
-  font-weight: 400;
+  font-weight: 500;
   display: inline-block;
   padding: 0px 0px 0px 0px;
   font-family: "Poppins", sans-serif;
@@ -1226,6 +1228,8 @@ h3 {
 
 /* line 262, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_header.scss */
 .header-area .main-header-area.sticky {
+  height: 60px;
+  padding: 20px;
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
@@ -1238,13 +1242,21 @@ h3 {
   -webkit-transition: transform 500ms ease, background 500ms ease;
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   background: rgba(255, 255, 255, 0.96);
-  background: #fff;
+  background: #00337c;
 }
 
 @media (max-width: 767px) {
   /* line 262, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_header.scss */
   .header-area .main-header-area.sticky {
     padding: 10px 0px;
+  }
+}
+
+@media (max-width: 990px) {
+  /* line 262, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_header.scss */
+  .header-area .main-header-area.sticky {
+    background-color: white;
+    height: 130px;
   }
 }
 
@@ -1381,7 +1393,7 @@ h3 {
 
 /* line 10, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_slider.scss */
 .slider_area::before {
-  background: #001d3800;
+  background: #00337c00;
   position: absolute;
   left: 0;
   top: 0;
@@ -1433,7 +1445,7 @@ h3 {
 
 /* line 43, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_slider.scss */
 .slider_area .single_slider.single_slider2 .property_wrap .property_form {
-  background: #001D38;
+  background: #00337c;
 }
 
 @media (max-width: 767px) {
@@ -1802,7 +1814,7 @@ h3 {
 .about_info_area .about_text h3 {
   font-size: 46px;
   font-weight: 300;
-  color: #001D38;
+  color: #00337c;
 }
 
 @media (max-width: 767px) {
@@ -1889,7 +1901,7 @@ h3 {
 .about_mission .about_text h4 {
   font-size: 42px;
   font-weight: 500;
-  color: #001D38;
+  color: #00337c;
 }
 
 /* line 69, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_about.scss */
@@ -2078,7 +2090,7 @@ h3 {
 .contact_form_quote .form_wrap h3 {
   font-size: 46px;
   font-weight: 300;
-  color: #001D38;
+  color: #00337c;
   margin-bottom: 51px;
 }
 
@@ -2169,7 +2181,7 @@ h3 {
 
 /* line 22, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_testmonial.scss */
 .testimonial_area .single_testmonial p {
-  color: #001D38;
+  color: #00337c;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
@@ -2201,7 +2213,7 @@ h3 {
 
 /* line 44, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_testmonial.scss */
 .testimonial_area .single_testmonial .testmonial_author h3 {
-  color: #001D38;
+  color: #00337c;
   font-size: 15px;
   font-weight: 500;
   margin-bottom: 5px;
@@ -2356,7 +2368,7 @@ h3 {
 /* line 5, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_service_details.scss */
 .service_details_area .service_details_info h3 {
   font-size: 36px;
-  color: #001D38;
+  color: #00337c;
   font-weight: 400;
   margin-bottom: 16px;
 }
@@ -2371,7 +2383,7 @@ h3 {
 /* line 20, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_service_details.scss */
 .service_details_area .service_details_left h3 {
   font-size: 22px;
-  color: #001D38;
+  color: #00337c;
   font-weight: 500;
   margin-bottom: 40px;
 }
@@ -2385,7 +2397,7 @@ h3 {
 .service_details_area .service_details_left .nav a {
   padding: 0;
   border-bottom: 1px solid #EAEAEA;
-  color: #001D38;
+  color: #00337c;
   font-size: 16px;
   padding: 25px 0;
   display: block;
@@ -2457,7 +2469,7 @@ h3 {
   font-size: 22px;
   font-weight: 400;
   margin-bottom: 0;
-  color: #001D38;
+  color: #00337c;
 }
 
 /* line 80, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_service_details.scss */
@@ -2492,7 +2504,7 @@ h3 {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #001D38;
+  background: #00337c;
   opacity: .7;
   z-index: -1;
   content: '';
@@ -2624,7 +2636,7 @@ h3 {
 
 /* line 101, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
 .chose_area {
-  padding: 120px 0 72px 0;
+  padding: 30px 0 30px 0;
 }
 
 @media (max-width: 767px) {
@@ -2712,7 +2724,7 @@ h3 {
   .chose_area .features_info {
     padding-left: 30px;
     padding-top: 0;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
 }
 
@@ -2903,7 +2915,7 @@ h3 {
 /* line 283, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_contact_action.scss */
 .contact_location .single_location h3 {
   font-size: 22px;
-  color: #001D38;
+  color: #00337c;
   font-weight: 400;
   margin-bottom: 15px;
 }
@@ -2948,7 +2960,7 @@ h3 {
   font-size: 13px;
   line-height: 40px;
   left: 50px;
-  color: #001D38;
+  color: #00337c;
   background: #fff;
   border: none;
 }
@@ -2977,7 +2989,7 @@ h3 {
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 25px;
-  color: #001D38;
+  color: #00337c;
 }
 
 /* line 48, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_property_details.scss */
@@ -2993,7 +3005,7 @@ h3 {
 .property_details .contact_field h3 {
   font-size: 22px;
   font-weight: 500;
-  color: #001D38;
+  color: #00337c;
   margin-bottom: 26px;
 }
 
@@ -3170,7 +3182,7 @@ h3 {
 
 /* line 7, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_Estimate_area.scss */
 .Estimate_area.overlay:before {
-  background: #001D38;
+  background: #00337c;
   opacity: .94;
 }
 
@@ -3472,7 +3484,7 @@ h3 {
 .accordion_area .faq_ask h3 {
   font-size: 36px;
   font-weight: 300;
-  color: #001D38;
+  color: #00337c;
   margin-bottom: 17px;
 }
 
@@ -3519,7 +3531,7 @@ h3 {
 /* line 55, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_accordion_area.scss */
 .accordion_area .faq_ask #accordion button {
   font-size: 15px;
-  color: #001D38 !important;
+  color: #00337c !important;
   font-weight: 300 !important;
 }
 
@@ -3787,7 +3799,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 .case_details_area .details_title h3 {
   font-size: 46px;
   font-weight: 300;
-  color: #001D38;
+  color: #00337c;
 }
 
 @media (max-width: 767px) {
@@ -3799,7 +3811,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 
 /* line 32, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_case_details.scss */
 .case_details_area .details_main_wrap .details_info {
-  color: #001D38;
+  color: #00337c;
   font-weight: 400;
   font-size: 20px;
   margin-top: 54px;
@@ -3815,7 +3827,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 .case_details_area .details_main_wrap .single_details span {
   font-weight: 500;
   font-size: 22px;
-  color: #001D38;
+  color: #00337c;
 }
 
 /* line 46, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_case_details.scss */
@@ -3876,7 +3888,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 
 /* line 1, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_transport.scss */
 .transportaion_area {
-  padding: 120px 0 90px 0;
+  padding: 30px 0 30px 0;
 }
 
 @media (max-width: 767px) {
@@ -3908,7 +3920,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 .transportaion_area .single_transport h3 {
   font-size: 22px;
   font-weight: 500;
-  color: #001D38;
+  color: #00337c;
   margin-top: 15px;
   margin-bottom: 15px;
   -webkit-transition: 0.3s;
@@ -4781,7 +4793,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 .footer .footer_top .footer_widget .footer_title {
   font-size: 18px;
   font-weight: 500;
-  color: #001D38;
+  color: #00337c;
   text-transform: capitalize;
   margin-bottom: 40px;
 }
@@ -4943,13 +4955,13 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 
 /* line 147, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_footer.scss */
 .footer .copy-right_text {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 /* line 149, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_footer.scss */
 .footer .copy-right_text .footer_border {
   border-top: 1px solid #E8E8E8;
-  padding-bottom: 30px;
+  padding-bottom: 12px;
 }
 
 /* line 153, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_footer.scss */
@@ -5055,7 +5067,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #001D38;
+  background: #00337c;
   opacity: .5;
   z-index: -1;
   content: '';
@@ -5423,7 +5435,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 /* line 1, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_service.scss */
 .service_area {
   background: #F5FBFF;
-  padding: 120px 0 90px 0;
+  padding: 60px 0 90px 0;
 }
 
 @media (max-width: 767px) {
@@ -5486,7 +5498,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 
 /* line 34, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_service.scss */
 .service_area .single_service .service_info h3 a {
-  color: #001D38;
+  color: #00337c;
   font-size: 22px;
   font-weight: 500;
 }
