@@ -111,50 +111,40 @@
                                             <p style="color: #333c6b; font-weight: 600; text-align: center;">Aravind
                                                 Packers Movers &
                                                 Logistics</p>
-                                            <!-- <p style="color: #333c6b;" class="text-center mb-0">Right Place for The Right People
-                                            </p>
-                                            <p style="color: #333c6b;" class="text-center">(A Unit of APML Packers and
-                                                Movers)</p> -->
-                                        </div>
-                                    </a>
+
+                                            
+                                   
                                 </div>
+                                </a>
                             </div>
-                                <!-- <div class="col-xl-12 col-lg-12 h-100">
-                                    <div class="main-menu h-100 d-none d-lg-block  ">
-                                        <nav class=" h-100 d-flex align-items-end justify-content-end ">
-                                            <ul id="navigation d-flex align-items-end">
-                                                <li><a href="index.html">home</a></li>
-                                                <li><a href="#profile">Profile</a></li>
-                                                <li><a href="#service">Services</a></li>
-                                                <li><a href="#about">about</a></li>
-                                                <li><a href="#contact">Contact</a></li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                </div> -->
+                        </div>
 
-                                <div class="col-xl-12 col-lg-12 h-100">
-                                    <div class="main-menu h-100 d-none d-lg-block">
-                                        <nav class=" h-100 d-flex align-items-end justify-content-end ">
-                                            <ul id="navigation">
-                                                <li><a  href="index.html">home</a></li>
-                                                <li><a  href="#service">Services</a></li>
-                                                <li><a href="#about">about</a></li>
-                                                <li><a href="#contact">Contact</a></li>
-                                            </ul>
-                                        </nav>
+                        <div class="col-xl-12 col-lg-12 h-100">
+                            <div class="main-menu h-100 d-none d-lg-block">
+                                <nav class=" h-100 d-flex align-items-end justify-content-end ">
+                                    <ul id="navigation">
+                                        <li><a href="index.html">home</a></li>
+                                        <li><a href="#profile">Profile</a></li>
+                                        <li><a href="#service">Services</a></li>
+                                        <li><a href="#about">about</a></li>
+                                        <li><a href="#contact">Contact</a></li>
+                                    </ul>
+                                    <div class="book_btn d-flex justify-content-center">
+                                        <a class="boxed-btn3-line" href="tel:+919043919199">Get Free Quote</a>
                                     </div>
-                                </div>
+                                </nav>
+                            </div>
+                        </div>
 
-                            <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none">
-                                </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none">
                             </div>
                         </div>
                     </div>
-
                 </div>
+
             </div>
+        </div>
         </div>
     </header>
     <!-- header-end -->
@@ -189,7 +179,7 @@
         <div class="container">
             <div class="row d-flex">
                 <div class="col-xl-5 col-md-12 d-flex align-items-center justify-content-center">
-                    <img class="hero_img" width="400px" height="400px" src="./img/apml.png" alt="">
+                    <img class="hero_img" width="100%" height="400px" src="./img/apml.png" alt="">
                 </div>
                 <div class="col-xl-7 col-md-12 d-flex flex-column justify-content-center align-items-center">
                     <h1 style="color: #FF3414;font-size: 42px; font-weight: 700;" class="text-center">APML</h1>
@@ -361,7 +351,7 @@
     </div>
 
     <!--/ chose_area  -->
-<div style="padding: 30px 0px 0px  0px" class="container ">
+    <div style="padding: 30px 0px 0px  0px" class="container ">
         <div class="col-md-12">
             <div class="row">
                 <div class="col-5">
@@ -381,7 +371,7 @@
 
         </div>
     </div>
-    
+
     <div class="transportaion_area">
         <div class="container">
             <div class="row">
@@ -822,7 +812,7 @@
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="input_field">
-                                        <input type="text" id="fPhone" placeholder="Phone">
+                                        <input maxlength="10" type="text" id="fPhone" placeholder="Phone">
                                     </div>
                                 </div>
 
@@ -831,10 +821,15 @@
                                         <textarea id="fMsg" placeholder="Items Description"></textarea>
                                     </div>
                                 </div>
-                                <div class="col-xl-12">
-                                    <div class="input_field">
-                                        <button id="messageBtn" class="boxed-btn3-line" type="button">Send Message</button>
-                                    </div>
+                            </div>
+                            <div class="col-xl-12">
+                                <div class="input_field">
+                                    <p id="error-message" class="text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-xl-12">
+                                <div class="input_field">
+                                    <button id="messageBtn" class="boxed-btn3-line" type="button">Send Message</button>
                                 </div>
                             </div>
                         </div>
@@ -874,11 +869,17 @@
                 <div class="col-xl-3 col-md-3">
                     <div class="single_location">
                         <h3> <img src="img/icon/support.svg" alt=""> Contact</h3>
-                        <p class="mb-2">aravindpacker.com</p>
-                        <p class="mb-0">+91 8438019199</p>
-                        <p class="mb-0">+91 9585519199</p>
-                        <p class="mb-2">+91 9045266067</p>
-                        <p class="mb-0">apmlpackers1@gmail.com </p>
+                        <a class="mb-2" href=""> <i style="color:#FF3414; padding-right: 10px;"
+                                class="fa fa-phone"></i>+91 8438019199</a> <br>
+                        <a class="mb-2" href=""> <i style="color:#FF3414; padding-right: 10px;"
+                                class="fa fa-phone"></i>+91 9585519199</a> <br>
+                        <a class="mb-2" href=""> <i style="color:#FF3414; padding-right: 10px;"
+                                class="fa fa-phone"></i>+91 9045266067</a> <br>
+                        <a class="mb-2" href=""> <i style="color:#FF3414; padding-right: 10px; margin-top: 15px;"
+                                class="fa fa-envelope"></i>apmlpackers1@gmail.com </a> <br>
+                        <a class="mb-2" href=""> <i style="color:#FF3414; padding-right: 10px;"
+                                class="fa fa-globe"></i>aravindpacker.com</a> <br>
+
                     </div>
                 </div>
             </div>
@@ -1001,7 +1002,8 @@
 
     <script src="js/main.js"></script>
 
-    <script >
+    <script>
+        const error = document.getElementById('error-')
         const name = document.getElementById('fName')
         const phone = document.getElementById('fPhone')
         const from = document.getElementById('fFrom')
@@ -1009,9 +1011,57 @@
         const message = document.getElementById('fMsg')
         const messageBtn = document.getElementById('messageBtn')
         console.log(messageBtn);
-        messageBtn.addEventListener("click",()=>{
-            console.log("eee");
-            location.href=`https://api.whatsapp.com/send?phone=+919043919199&text=Name%3A${name.value}%0APhone%3A${phone.value}%0AFrom%3A${from.value}%0ATo%3A${to.value}%0AMessage%3A${message.value}`
+        var expr = /^(0|91)?[6-9][0-9]{9}$/;
+        phone.addEventListener("keyup", (event) => {
+            if (expr.test(event.target.value)) {
+                phone.style.borderColor = "green"
+            } else {
+                phone.style.borderColor = "red"
+            }
+        })
+
+        name.addEventListener("keyup", (event) => {
+            if (event.target.value != "") {
+                name.style.borderColor = "green"
+            } else {
+                name.style.borderColor = "red"
+            }
+        })
+
+        from.addEventListener("keyup", (event) => {
+            if (event.target.value != "") {
+                from.style.borderColor = "green"
+            } else {
+                from.style.borderColor = "red"
+            }
+        })
+
+        to.addEventListener("keyup", (event) => {
+            if (event.target.value != "") {
+                to.style.borderColor = "green"
+            } else {
+                to.style.borderColor = "red"
+            }
+        })
+
+
+
+        message.addEventListener("keyup", (event) => {
+            if (event.target.value != "") {
+                message.style.borderColor = "green"
+            } else {
+                message.style.borderColor = "red"
+            }
+        })
+
+
+        messageBtn.addEventListener("click", () => {
+            if (name.value == "") {
+                name.style.borderColor = "red"
+                return;
+            }
+
+            location.href = `https://api.whatsapp.com/send?phone=+919043919199&text=Name%3A${name.value}%0APhone%3A${phone.value}%0AFrom%3A${from.value}%0ATo%3A${to.value}%0AMessage%3A${message.value}`
         })
     </script>
 
