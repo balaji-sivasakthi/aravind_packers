@@ -689,12 +689,99 @@ h3 {
   z-index: 0;
 }
 
+.main-header-area .header_bottom_border .logo a h2{
+  color: #FF3414; 
+  font-size: 35px; 
+  font-weight: 700;"
+}
+.main-header-area .header_bottom_border .mobile-mail{
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+@media (max-width: 770px){
+  .main-header-area .header_bottom_border .book_btn {
+    width: 40%;
+  }
+  .main-header-area .header_bottom_border .book_btn .boxed-btn3-line{
+    font-size: 15px;
+    padding: 15px;
+  }  
+}
+
+@media (max-width: 567px){
+  .main-header-area .header_bottom_border .logo a h2{
+    font-size: 20px;
+  }
+
+  .main-header-area .header_bottom_border .mobile-mail {
+    font-size: 15px;
+  }
+
+  .main-header-area .header_bottom_border .book_btn {
+    width: 40%;
+  }
+  .main-header-area .header_bottom_border .book_btn .boxed-btn3-line{
+    font-size: 15px;
+    padding: 10px;
+  }  
+  .main-header-area .header_bottom_border .mobile_menu{
+    right: 13px;
+    top: -40px;
+  }
+
+  .main-header-area .header_bottom_border .mobile-mail li{
+    margin-bottom: 4px;
+  }
+}
+
+@media (max-width: 435px){
+  .main-header-area .header_bottom_border .mobile-mail {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 380px){
+  
+  .main-header-area .header_bottom_border .mobile-mail {
+    font-size: 10px;
+  }
+
+  .main-header-area .header_bottom_border .book_btn {
+    width: 40%;
+  }
+  .main-header-area .header_bottom_border .book_btn .boxed-btn3-line{
+    font-size: 13px;
+    padding: 4px;
+  }
+  
+  .main-header-area .header_bottom_border .logo a p{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 450px){
+  
+  .main-header-area .header_bottom_border .mobile_menu{
+    right: 13px;
+    top: -40px;
+  }
+}
+
+@media (min-width: 750px){
+  .mobile_menu{
+    top: -60px;
+    right: 10px;
+  }
+}
+
 @media (max-width: 767px) {
   /* line 2, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_section_title.scss */
   .section_title h3 {
     font-size: 30px;
     line-height: 36px;
   }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -753,6 +840,7 @@ h3 {
   .mobile_menu {
     position: absolute;
     right: 0px;   
+    top: -40px;
     width: 100%;
     z-index: 9;
   }
