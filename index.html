@@ -102,7 +102,7 @@
                     <div class="header_bottom_border">
                         <div class="row">
                             <div class="col-12 d-block d-lg-none">
-                                <div class="logo">
+                                <div class="col-12  logo">
                                     <a href="index.html">
                                         <!-- <img height="100px" width="150px" src="img/logoImg.png" alt=""> -->
                                         <div class="d-flex flex-column">
@@ -160,6 +160,24 @@
                 </div>
             </div>
 
+        </div>
+        <div class="container ">
+            <div class="col-12 d-lg-none d-flex justify-content-between">
+                <div class="mobile-mail col-8 d-flex flex-column align-items-start justify-content-center">
+                    <ul>
+                        <li><a href=""> <i class="fa fa-envelope" style="color: #FF3414;"></i> apmlpackers1@gmail.com</a></li>
+                    </ul>
+                    <ul style="text-align: left; ">
+                        <li><a href=""> <i class="fa fa-phone" style="color: #FF3414;"></i> +91 8438019199</a></li></a></li>
+                        <li><a href=""> <i class="fa fa-phone" style="color: #FF3414;"></i>   +91 9585519199</a></li></a></li>
+                        <li><a href=""> <i class="fa fa-phone" style="color: #FF3414;"></i> +91 9045266067</a></li></a></li>
+                    </ul>
+                </div>   
+                
+                <div class="book_btn d-flex align-items-center justify-content-center">
+                    <a class="boxed-btn3-line" href="tel:+919043919199">Get Free Quote</a>
+                </div>  
+            </div>
         </div>
     </header>
     <!-- header-end -->
@@ -387,7 +405,7 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single_transport">
-                        <div class="icon">
+                        <div class="icon d-flex d-sm-block justify-content-center align-content-center">
                             <img src="img/svg_icon/airplane.png" alt="">
                         </div>
                         <h3>Reliable and fast moving</h3>
@@ -399,7 +417,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single_transport">
-                        <div class="icon">
+                        <div class="icon d-flex d-sm-block justify-content-center align-content-center">
                             <img src="img/svg_icon/live.png" alt="">
                         </div>
                         <h3>
@@ -411,7 +429,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single_transport">
-                        <div class="icon">
+                        <div class="icon d-flex d-sm-block justify-content-center align-content-center">
                             <img src="img/svg_icon/world.png" alt="">
                         </div>
                         <h3>
@@ -728,7 +746,7 @@
     <!-- /testimonial_area  -->
 
     <!-- contact_action_area  -->
-    <div id="contact" class="contact_action_area">
+    <div class="contact_action_area">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-12 col-md-12">
@@ -791,7 +809,7 @@
 
 
     <!-- Estimate_area start  -->
-    <div class="Estimate_area overlay">
+    <div id="contact" class="Estimate_area overlay">
         <div class="container">
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-5">
@@ -822,7 +840,7 @@
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="input_field">
-                                        <input maxlength="10" type="text" id="fPhone" placeholder="Phone">
+                                        <input maxlength="10" type="number" id="fPhone" placeholder="Phone">
                                     </div>
                                 </div>
 
@@ -858,7 +876,12 @@
                     <div class="location_left">
                         <div class="logo">
                             <a href="index.html">
-                                <img src="img/logoImg.png" alt="" width="200" height="100">
+                                <div class="col-xl-7 col-md-12 d-flex flex-column justify-content-center align-items-center">
+                                    <h1 style="color: #FF3414; font-size: 35px; font-weight: 700;" class="text-center">APML</h1>
+                                    <h1 style="color: #333c6b; font-size: 20px; font-weight: 700;" class="text-center">Aravind Packers Movers & Logistics</h1>
+                                    <p style="color: #333c6b; font-size: 12px;" class="text-center mb-0">Right Place for The Right People</p>
+                                    <p style="color: #333c6b; font-size: 10px;" class="text-center">(A Unit of APML Packers and Movers)</p>
+                                </div>
                             </a>
                         </div>
                         <ul>
@@ -933,6 +956,19 @@
             </div>
         </div>
     </div>
+
+    <script>
+
+        var profile = document.getElementById('profileBtn')
+        var service = document.getElementById('serviceBtn')
+        var about = document.getElementById('aboutBtn')
+        var contact = document.getElementById('contactBtn')
+
+        profile.addEventListener('click',()=>{
+
+        })
+
+    </script>
 
     <style>
         .float {
@@ -1021,12 +1057,15 @@
         const message = document.getElementById('fMsg')
         const messageBtn = document.getElementById('messageBtn')
         console.log(messageBtn);
+
         var expr = /^(0|91)?[6-9][0-9]{9}$/;
+
         phone.addEventListener("keyup", (event) => {
             if (expr.test(event.target.value)) {
                 phone.style.borderColor = "green"
             } else {
                 phone.style.borderColor = "red"
+                
             }
         })
 
@@ -1067,11 +1106,25 @@
 
         messageBtn.addEventListener("click", () => {
             if (name.value == "") {
-                name.style.borderColor = "red"
+                name.style.borderColor = "red";
+                alert('Please enter your name')
+                return;
+            }
+            else if(from.value == ""){
+                alert('Please enter your starting place')
+                return;
+            }
+            else if(to.value == ""){
+                alert('Please enter your destination place')
+                return;
+            }
+            else if(phone.value.length!=10){
+                alert('Please enter your valid phone number')
                 return;
             }
 
-            location.href = `https://api.whatsapp.com/send?phone=+919043919199&text=Name%3A${name.value}%0APhone%3A${phone.value}%0AFrom%3A${from.value}%0ATo%3A${to.value}%0AMessage%3A${message.value}`
+
+            location.href = `https://api.whatsapp.com/send?phone=+919043919199&text=Received%20an%20enquiry%20from%20aravindpacker.com%0A%0AName%20%3A%20${name.value}%0APhone%20%3A%20${phone.value}%0AFrom%20%3A%20${from.value}%0ATo%20%3A%20${to.value}%0AItems%20Description%20%3A%20${message.value}%0A%0AReachout%20quickly.`
         })
     </script>
 
