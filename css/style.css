@@ -472,6 +472,37 @@ h3 {
   border: 1px solid #FF3414;
 }
 
+.mobile-contact-content .header_right .short_contact_list ul li i{
+  color: #FF3414;
+  margin-right: 7px;
+}
+
+.mobile-contact-content .header_right .short_contact_list ul li a{
+  font-size: 15px;
+}
+
+@media (max-width: 440px){
+  .mobile-contact-content .header_right .short_contact_list ul li a{
+    font-size: 12px;
+  }
+}
+@media (max-width: 394px){
+  .mobile-contact-content .header_right .short_contact_list ul li a{
+    font-size: 10px;
+  }
+
+  .mobile-contact-content .header_right .book_btn .boxed-btn3-line{
+    padding: 10px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 318px){
+  .mobile-contact-content .header_right .book_btn .boxed-btn3-line{
+    padding: 10px;
+    font-size: 10px;
+  }
+}
+
 /* line 22, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_btn.scss */
 .boxed-btn:focus {
   outline: none;
