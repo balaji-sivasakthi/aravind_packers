@@ -121,10 +121,10 @@
                                     <nav class=" h-100 d-flex align-items-end justify-content-end ">
                                         <ul id="navigation">
                                             <li><a href="index.html">home</a></li>
-                                            <li><a href="index.html#profile">Profile</a></li>
-                                            <li><a href="index.html#service">Services</a></li>
-                                            <li><a href="index.html#about">about</a></li>
-                                            <li><a href="index.html#contact">Contact</a></li>
+                                            <li><a id="profileBtn" href="#profile">Profile</a></li>
+                                            <li><a id="serviceBtn" href="#service">Services</a></li>
+                                            <li><a href="#about">about</a></li>
+                                            <li><a href="#contact">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -1012,6 +1012,10 @@
         var contact = document.getElementById('contactBtn')
         var mainbtn = documen.getElementsByClassName('mobile_menu')
 
+        var nav = document.getElementById('navigation')
+
+
+
     </script>
 
     <!--contact js-->
@@ -1025,6 +1029,11 @@
     <script src="js/main.js"></script>
 
     <script>
+
+      window.addEventListener('hashchange',()=>{
+            document.getElementsByClassName('slicknav_nav')[0].style.display="none";
+      })
+
         const error = document.getElementById('error-')
         const name = document.getElementById('fName')
         const phone = document.getElementById('fPhone')
